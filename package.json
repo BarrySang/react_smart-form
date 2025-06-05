@@ -1,0 +1,30 @@
+{
+  "name": "react-smart-form",
+  "version": "1.0.0",
+  "description": "Reusable form component with validation",
+   "main": "./dist/react-smart-form.cjs.js",
+  "module": "./dist/react-smart-form.es.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+        "build": "vite build"
+  },
+  "exports": {
+    "import": "./dist/react-smart-form.es.js",
+    "require": "./dist/react-smart-form.cjs.js"
+  },
+  "files": [
+    "dist"
+  ],
+    "keywords": ["react", "form", "validation"],
+  "author": "Barnabas Kipruto",
+  "license": "MIT",
+  "type": "commonjs",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.1",
+    "vite": "^6.3.5"
+  }
+}
